@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+
+.simpleLogin form {
+    max-width: 500px;
+    max-height: 5000px;
+    margin: auto;
+    background:#480202;
+    box-shadow: 0 10px 10px #222;
+  }
+  .simpleLogin form fieldset {
+      border: 0 none;
+      margin: 0;
+      padding: 50px;
+      
+   
+  }
+  .simpleLogin form legend,
+  .simpleLogin form fieldset input {
+    font-family: Open Sans;
+    font-size:15px;
+  }
+  .simpleLogin form legend {
+      background-color: #c4b400;
+      border-top: 0 none;
+      color: white;
+      display: table-cell;
+      padding: 10px 20px;
+      width: auto;
+     text-align: center;
+    
+  }
+  .simpleLogin form fieldset input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px 5%;
+    border: thin #8fc400 solid;
+  }
+  .simpleLogin input[type="submit"] {
+    width: 100px;
+    float: right;
+    background: #d76c08;
+    color: rgb(255, 255, 255);
+    transition: .2s;
+    border: 0;
+    cursor:pointer;
+  }
+  .simpleLogin input[type="submit"]:focus,
+  .simpleLogin input[type="submit"]:hover, 
+  .simpleLogin input[type="submit"]:active {
+    padding: 10px 5%;
+    background:#000000;
+    outline: none;
+  }
+
+    </style>
+
+    
+</head>
+<body>
+    <div class="simpleLogin">
+        <form>
+          <legend>Let's Login</legend>
+        
+          <fieldset>
+            
+            <input id="name" placeholder="Username" type="text" required>
+            <input id="pass" placeholder="Password" type="password" required>
+            <input id="submit" type="submit" value="Log in">
+        
+          </fieldset>
+        </form>
+      </div>          
+</body>
+</html>
